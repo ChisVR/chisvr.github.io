@@ -260,7 +260,7 @@ Promise.all([markets_promise, dex_promise, hive_wallet_promise])
     hiveAmountColor = actual_hive_balance == hiveInBuyContracts / 1000 ? 'green' : hiveAmountColor
     hbdAmountColor = actual_hbd_balance > hbdInBuyContracts / 1000 ? 'goldenrod' : 'red'
     hbdAmountColor = actual_hbd_balance == hbdInBuyContracts / 1000 ? 'green' : hbdAmountColor
-    dex_rows['<b>@ragnarok-cc Hive Wallet Balances</b> (actual Hive layer-1 wallet balances)'] = `<font color="${hiveAmountColor}">${(actual_hive_balance).toLocaleString()} HIVE</font> | <font color="${hbdAmountColor}">${actual_hbd_balance} HBD</font>`
+    dex_rows['<b>@alloyxuast-cc Hive Wallet Balances</b> (actual Hive layer-1 wallet balances)'] = `<font color="${hiveAmountColor}">${(actual_hive_balance).toLocaleString()} HIVE</font> | <font color="${hbdAmountColor}">${actual_hbd_balance} HBD</font>`
 
 
 
